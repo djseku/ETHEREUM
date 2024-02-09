@@ -4,12 +4,12 @@ Creating a private network with GETH
 Used geth and bootnode
 
 We create 4 accounts:
-
+`
 geth --datadir node01 account new --password ./pwd.txt
 geth --datadir node02 account new --password ./pwd.txt
 geth --datadir node03 account new --password ./pwd.txt
 geth --datadir node04 account new --password ./pwd.txt
-
+`
 Manually ceate genesis.json:
 
 {
